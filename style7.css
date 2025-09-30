@@ -1,0 +1,112 @@
+body {
+    background: #222;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    padding: 40px 0 24px;
+    background: linear-gradient(90deg, #0d0e0f 40%, #007bff 100%);
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    text-align: center;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #007bff;
+    margin: 24px auto 0;
+    border-radius: 2px;
+    opacity: 0.7;
+}
+
+img {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 16px;
+    border: 4px solid #007bff;
+}
+
+h1, h2 {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 32px;
+}
+
+main {
+    max-width: 600px;
+    margin: 32px auto 0;
+    background: #292b2f;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    background: #23272b;
+}
+
+th, td {
+    padding: 12px 8px;
+    text-align: left;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) { background: #292b2f; }
+tr:nth-child(odd)  { background: #23272b; }
+
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.bg-success { background: #28a745; color: #fff; }
+.bg-warning { background: #ffc107; color: #222; }
+.bg-secondary { background: #6c757d; color: #fff; }
+
+.btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+.btn:hover { background: #0056b3; }
+
+.bg-dark {
+    background: #18191a;
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+    margin-top: 32px;
+    padding: 16px 0;
+    font-size: 0.95em;
+}
+
+.text-center { text-align: center; 
+}
